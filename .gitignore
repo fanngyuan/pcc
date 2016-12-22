@@ -7,4 +7,7 @@ demo/conf/app.conf
 demo/app/routes
 demo/log/
 demo/cmd/config.toml
+demo/target
+demo/demo.iml
+demo/.idea
 *DS_Store
