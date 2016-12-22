@@ -1,0 +1,10 @@
+dg
+demo/test-results/
+demo/tmp/
+demo/app/tmp
+demo/routes/
+demo/conf/app.conf
+demo/app/routes
+demo/log/
+demo/cmd/config.toml
+*DS_Store
