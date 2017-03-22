@@ -27,16 +27,6 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <bean id="viewResolver"
-          class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
-        <property name="prefix">
-            <value>/jsp/</value>
-        </property>
-        <property name="suffix">
-            <value>.jsp</value>
-        </property>
-    </bean>
-
     <bean id = "jdbcTemplate" class = "org.springframework.jdbc.core.JdbcTemplate">
         <property name = "dataSource" ref="dataSource"/>
     </bean>
